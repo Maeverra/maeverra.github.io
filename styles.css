@@ -199,9 +199,9 @@ p {
 
 .rank {
 	position: fixed;
-	bottom: 40%;
+	top: 25%;
 	left: 50%;
 	transform: translateX(-50%);
-	width: 160px;
-	height: 278px;
+	width: 208px;
+	height: 213px;
 }
