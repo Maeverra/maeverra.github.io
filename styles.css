@@ -196,12 +196,3 @@ p {
 	max-width: 40%;
 	z-index: 1;
 }
-
-.rank {
-	position: fixed;
-	top: 25%;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 208px;
-	height: 213px;
-}
