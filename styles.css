@@ -164,6 +164,16 @@ p {
 	margin-bottom: 0.25em;
 }
 
+a {
+	font-family: 'Courier Prime', monospace;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 2.5em;
+	margin-bottom: 0.25em;
+	display: inline-block;
+	text-decoration: underline;
+}
+
 /**/
 
 .background {
@@ -195,4 +205,30 @@ p {
 	text-align: center;
 	max-width: 40%;
 	z-index: 1;
+}
+
+.bottom {
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+	max-width: 40%;
+	z-index: 1;
+}
+
+.gallery {
+	column-width: 180px;
+	column-gap: 20px;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.gallery img {
+	width: 100%;
+	display: block;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	object-fit: cover;
 }
