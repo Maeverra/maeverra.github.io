@@ -202,7 +202,9 @@ a {
 	bottom: 0px;
 	left: 50%;
 	transform: translate(-50%);
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	gap: 20%;
 	max-width: 40%;
 	z-index: 1;
 }
